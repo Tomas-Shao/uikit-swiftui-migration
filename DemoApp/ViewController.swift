@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  UIKitDemoApp
+//  DemoApp
 //
-//  Created by Tomas Shao on 2023/5/8.
+//  Created by tomas.shao on 2023/5/9.
 //
 
 import UIKit
@@ -16,10 +16,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func didTap(_ sender: Any) {
-//        guard let scene = UIApplication.shared.delegate?.window?!.windowScene else {
-//            fatalError()
-//        }
-
         showDetailViewController(UIHostingController(rootView: ContentView()), sender: nil)
     }
 
